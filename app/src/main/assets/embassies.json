@@ -1,0 +1,153 @@
+{
+    "version": 1,
+    "title": "Embassies",
+    "list": [
+          {
+              "title": "USA",
+              "title_id": "AMERIKA",
+              "desc": " Konsulat Jendral Denpasar",
+              "number": ["+62361-233605"],
+              "address": "Jl. Hayam Wuruk No. 188, Denpasar 80235"
+          },
+          {
+              "title": "AUSTRALIA",
+              "desc": "Konsulat Jenderal Denpasar (Bali dan NTB)",
+              "number": ["+62361-241118"],
+              "address": "Jl. Tantular 32, Renon, Denpasar"
+          },
+          {
+              "title": "UNITED KINGDOM (UK)",
+              "title_id": "INGGRIS",
+              "desc": "Konsulat Jenderal Denpasar (Bali dan Lombok)",
+              "number": ["+62361-270601"],
+              "address": "Jl. Tirta Nadi 20, Sanur, Denpasar 80238"
+          },
+          {
+              "title": "BRAZIL",
+              "desc": "Konsulat Jenderal Bali",
+              "number": ["+62361-757775"],
+              "address": "Jl. Raya Legian No. 186, Kuta 80361"
+          },
+          {
+              "title": "CHILE",
+              "title_id": "CHILI",
+              "desc": "Konsulat Jenderal Denpasar (Bali dan NTB)",
+              "number": ["+62361-286465"],
+              "address": "Jl. Pangembak 17, Sanur"
+          },
+          {
+              "title": "FRANCE",
+              "title_id": "PRANCIS",
+              "desc": "Konsulat Jenderal Denpasar (Bali dan Lombok)",
+              "number": ["+62361-285485"],
+              "address": "Jl. Mertasari Gg. II No. 08, Sanur"
+          },
+          {
+              "title": "GERMANY",
+              "title_id": "JERMAN",
+              "desc": "Konsulat Jenderal Denpasar (Bali dan NTB)",
+              "number": ["+62361-288535"],
+              "address": "Jl. Pantai Karang No. 17, Sanur"
+          },
+          {
+              "title": "HUNGARY",
+              "title_id": "HUNGARIA",
+              "desc": "Konsulat Jenderal Denpasar",
+              "number": ["+62361-287701"],
+              "address": "Jl. By Pass Ngurah Rai No. 219, Sanur"
+          },
+          {
+              "title": "ITALY",
+              "title_id": "ITALIA",
+              "desc": "Konsulat Jendral Denpasar (Bali dan NTB)",
+              "number": ["+62361-701005"],
+              "address": "Lotus Enterprise Building, Jl. Bypass Ngurah Rai, Jimbaran"
+          },
+          {
+              "title": "JAPAN",
+              "title_id": "JEPANG",
+              "desc": "Konsulat Jendral Denpasar (Bali, NTB, NTT)",
+              "number": ["+62361-227628"],
+              "address": "Jl. Raya Puputan 170, Renon, Denpasar 80235"
+          },
+          {
+              "title": "MALAYSIA",
+              "desc": "Konsulat Jendral Denpasar",
+              "number": ["+62361-752520"],
+              "address": "Jl. Pantai Kuta, Legian Bali 80030"
+          },
+          {
+              "title": "MEXICO",
+              "title_id": "MEKSIKO",
+              "desc": "Konsulat Jendral Denpasar (Bali, NTB, NTT & Jayapura)",
+              "number": ["+62361-223266"],
+              "address": "Jl. Prof. Moh. Yamin No. 1A, Renon, Denpasar"
+          },
+          {
+              "title": "NETHERLANDS",
+              "title_id": "BELANDA",
+              "desc": "Konsulat Jendral Denpasar (Bali dan NTB)",
+              "number": ["+62361-751517"],
+              "address": "Jl. Raya Kuta 127, Kuta 80361"
+          },
+          {
+              "title": "DENMARK",
+              "desc": "Konsulat Jendral Denpasar (Bali dan Lombok)",
+              "number": ["+62361-701070"],
+              "address": "Mimpi Resort, Kawasan Bukit Permai, Jimbaran"
+          },
+          {
+              "title": "NORWAY",
+              "title_id": "NORWEGIA",
+              "desc": "Konsulat Jendral Denpasar",
+              "number": ["+62361-701070"],
+              "address": "Mimpi Resort, Kawasan Bukit Permai, Jimbaran"
+          },
+          {
+              "title": "SLOVAKIA",
+              "desc": "Konsulat Jendral Denpasar",
+              "number": ["+62361-426171", "+62361-421385"],
+              "address": "Jl. Gunung Agung no. 93, Denpasar 80118"
+          },
+          {
+              "title": "SPAIN",
+              "title_id": "SPANYOL",
+              "desc": "Konsulat Jendral Denpasar",
+              "number": ["+62361-769286", "+62361-769287"],
+              "address": "Kompleks Istana Kuta Galeria, Blok Vallet 2, No. 11"
+          },
+          {
+              "title": "SWEDEN & FINLAND",
+              "title_id": "SWEDIA & FINLANDIA",
+              "desc": "Konsulat Jendral Denpasar (Bali, NTB dan NTT)",
+              "number": ["+62361-282223"],
+              "address": "Jl. Segara Ayu, Sanur, Denpasar 80030"
+          },
+          {
+              "title": "SWEDEN & FINLAND",
+              "title_id": "SWEDIA & FINLANDIA",
+              "desc": "Konsulat Jendral Denpasar (Bali, NTB dan NTT)",
+              "number": ["+62361-282223"],
+              "address": "Jl. Segara Ayu, Sanur, Denpasar 80030"
+          },
+          {
+              "title": "SWITZERLAND",
+              "title_id": "SWISS",
+              "desc": "Konsulat Jendral Denpasar",
+              "number": ["+62361-751735", "+62361-761511"],
+              "address": "Kompleks Istana Kuta Galeria (former Central Parking)"
+          },
+          {
+              "title": "THAILAND",
+              "desc": "Konsulat Jendral Denpasar",
+              "number": ["+62361-263310"],
+              "address": "Jl. Puputan Raya No. 81, Renon Denpasar 80235"
+          },
+          {
+              "title": "TIMOR LESTE",
+              "desc": "Konsulat Jendral Denpasar",
+              "number": ["+62361-235093"],
+              "address": "Jalan Prof. Yamin No. 4, Renon Denpasar"
+          }
+    ]
+}

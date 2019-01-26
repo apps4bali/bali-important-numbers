@@ -1,0 +1,43 @@
+{
+    "version": 1,
+    "title": "Fire Fighters",
+    "hotline": "113",
+    "list": [
+          {
+              "title": "Denpasar",
+              "number": ["+62361-484013"]
+          },
+          {
+              "title": "Badung",
+              "number": ["+62361-411333"]
+          },
+          {
+              "title": "Tabanan",
+              "number": ["+62361-812113"]
+          },
+          {
+              "title": "Buleleng",
+              "number": ["+62362-21113"]
+          },
+          {
+              "title": "Gianyar",
+              "number": ["+62361-943113"]
+          },
+          {
+              "title": "Bangli",
+              "number": ["+62361-92869"]
+          },
+          {
+              "title": "Klungkung",
+              "number": ["+62366-22655"]
+          },
+          {
+              "title": "Karangasem",
+              "number": ["+62363-21113"]
+          },
+          {
+              "title": "Jembrana",
+              "number": ["+62365-41113"]
+          }
+    ]
+}

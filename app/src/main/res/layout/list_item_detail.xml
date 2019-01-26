@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="desc"
+            android:id="@+id/descTxt"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address:"
+            android:id="@+id/textView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="address"
+            android:id="@+id/addressTxt"
+            android:textColor="#000"
+            android:textSize="16dp" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="phone1"
+            android:id="@+id/phone1Btn"
+            android:layout_marginTop="35dp"
+            android:capitalize="words"
+            android:background="@drawable/green_button_reverse"
+            android:textColor="#fff" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="phone2"
+            android:id="@+id/phone2Btn"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/green_button_reverse"
+            android:capitalize="words"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+    </ScrollView>

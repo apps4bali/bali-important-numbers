@@ -1,0 +1,203 @@
+{
+    "version": 1,
+    "title": "Hospitals",
+    "hotline": "118",
+    "list": [
+          {
+              "title": "RSU Sanglah",
+              "number": ["+62361-227911", "+62361-227915"],
+              "address": "Jl. Pulau Nias, Denpasar",
+              "area": "Denpasar"
+          },
+          {
+              "title": "RSU Bhakti Rahayu",
+              "number": ["+62361-430245"],
+              "email": "bhaktirahayu@hotmail.com",
+              "address": "Jl. Gatot Subroto II/11 Denpasar",
+              "area": "Denpasar"
+          },
+          {
+              "title": "RSU Dharma Usadha",
+              "number": ["+62361-227560"],
+              "address": "Jl. PB. Sudirman No. 50, Denpasar",
+              "area": "Denpasar"
+          },
+          {
+              "title": "RSU Dharma Yadnya",
+              "number": ["+62361-462488"],
+              "address": "Jl. W.R. Supratman No. 256, Denpasar Timur",
+              "area": "Denpasar"
+          },
+          {
+              "title": "RSJ Bina Atma",
+              "number": ["+62361-437462", "+62361-425744"],
+              "address": "Jl. Cokroaminoto Km 5, Denpasar",
+              "area": "Denpasar"
+          },
+          {
+              "title": "RS Kasih Ibu",
+              "number": ["+62361-223036"],
+              "email": "kasih.ibu@telkom.net",
+              "address": "Jl. Teuku Umar No. 120, Denpasar",
+              "area": "Denpasar"
+          },
+          {
+              "title": "RSU Manuaba",
+              "number": ["+62361-426393"],
+              "address": "Jl. HOS Cokroaminoto No. 28, Denpasar",
+              "area": "Denpasar"
+          }, 
+          {
+              "title": "RS Penyakit Dalam Sari Dharma",
+              "number": ["+62361-226866"],
+              "address": "Jl. P Seram 8, Denpasar",
+              "area": "Denpasar"
+          },
+          {
+              "title": "RS Trijata",
+              "number": ["+62361-234670"],
+              "address": "Jl. Trijata No. 32, Denpasar",
+              "area": "Denpasar"
+          },
+          {
+              "title": "RSU Puri Rahardja",
+              "number": ["+62361-222013"],
+              "address": "Jl. W.R. Supratman No. 14, Denpasar",
+              "area": "Denpasar"
+          },
+          {
+              "title": "RSU Niti Mandala",
+              "number": ["+62361-265105"],
+              "address": "Jl. Tekad Unda No. 1, Denpasar",
+              "area": "Denpasar"
+          },
+          {
+              "title": "RSU Surya Husadha",
+              "number": ["+62361-233787"],
+              "address": "Jl. Pulau Serangan 1, Denpasar",
+              "area": "Denpasar"
+          },
+          {
+              "title": "RSU Udayana",
+              "number": ["+62361-228061", "+62361-228003"],
+              "address": "Jl. PB Sudirman No. 1, Denpasar",
+              "area": "Denpasar"
+          },
+          {
+              "title": "RSUD Wangaya",
+              "number": ["+62361-222141", "+62361-222142"],
+              "address": "Jl. Kartini  No. 133, Denpasar",
+              "area": "Denpasar"
+          },
+          {
+              "title": "BIMC Hospital",
+              "number": ["+62361-761263"],
+              "email": "info@bimcbali.com",
+              "address": "Jl. Bypass Ngurah Rai 100 X, Kuta 80361",
+              "area": "Denpasar"
+          },
+          {
+              "title": "RSU Graha Asih",
+              "number": ["+62361-764860"],
+              "email": "info@grahaasih.com",
+              "address": "Jalan I Gusti Ngurah Rai No. 33X, Kuta",
+              "area": "Denpasar"
+          },
+          {
+              "title": "RSUD Sanjiwani Gianyar",
+              "number": ["+62361-943020"],
+              "address": "Jl. Ciung Wanara No. 2, Gianyar",
+              "area": "Gianyar"
+          },
+          {
+              "title": "RSU Ari Santi",
+              "number": ["+62361-974573"],
+              "address": "Jl. Raya Mas, Ubud, Gianyar",
+              "area": "Gianyar"
+          },
+          {
+               "title": "RS Dharma Kerti",
+               "number": ["+62361-811424"],
+               "address": "Jl. Teratai No. 16, Tabanan",
+               "area": "Tabanan"
+          },
+          {
+              "title": "RSU Gelgel",
+              "number": ["+62361-811444", "+62361-812359"],
+              "address": "Jl. Mawar No. 76, Tabanan",
+              "area": "Tabanan"
+          },
+          {
+              "title": "RSU Tabanan",
+              "number": ["+62361-811027"],
+              "address": "Jl. Pahlawan No. 14, Tabanan",
+              "area": "Tabanan"
+          },  
+          {
+              "title": "RSJ Propinsi Bali",
+              "number": ["+62366-91073"],
+              "address": "Jl. Kusuma Yudha No. 29, Bangli",
+              "area": "Bangli"
+          },
+          {
+              "title": "RSUD Bangli",
+              "number": ["+62366-91002", "+62366-91521"],
+              "address": "Jl. Kusuma Yudha No. 27, Bangli",
+              "area": "Bangli"
+          },
+          {
+              "title": "RSU Karya Dharma Husada",
+              "number": ["+62362-21890"],
+              "address": "Jl. Yudistira No.7, Singaraja",
+              "area": "Singaraja"
+          },
+          {
+              "title": "RSU Kertha Usada",
+              "number": ["+62362-26277"],
+              "address": "Jl. Cendrawasih No. 5, Singaraja",
+              "area": "Singaraja"
+          },
+          {
+              "title": "RS Khusus Bedah Graha Juanda",
+              "number": ["+62361-423467"],
+              "address": "Jl. Cokroaminoto No. 30, Singaraja",
+              "area": "Singaraja"
+          },
+          {
+              "title": "RSU Singaraja",
+              "number": ["+62362-22046"],
+              "address": "Jl. I Gusti Ngurah Rai No.30, Singaraja",
+              "area": "Singaraja"
+          },
+          {
+              "title": "RS TNI-AD Singaraja",
+              "number": ["+62362-22543"],
+              "address": "Jl. Ngurah Rai No. 70, Singaraja",
+              "area": "Singaraja"
+          }, 
+          {
+              "title": "RSUD Klungkung",
+              "number": ["+62366-21172"],
+              "address": "Jl. Flamboyan No. 40 Semarapura, Klungkung",
+              "area": "Klungkung"
+          },
+          {
+              "title": "RS Semara Husada",
+              "number": ["+62361-21043"],
+              "address": "Jl. Patimura No. 23, Semarapura",
+              "area": "Klungkung"
+          },
+          {
+              "title": "RSU Negara",
+              "number": ["+62365-41006"],
+              "address": "Jl. Wijaya Kusuma No. 17, Negara",
+              "area": "Jembrana"
+          },
+          {
+              "title": "RSU Amlapura",
+              "number": ["+62366-21470"],
+              "address": "Jl. Ngurah Rai, Amlapura",
+              "area": "Karangasem"
+          }
+    ]
+}

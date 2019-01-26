@@ -1,0 +1,38 @@
+{
+    "version": 1,
+    "title": "Taxi",
+    "list": [
+          {
+              "title": "Bali Taxi / Blue Bird",
+              "number": ["+62361-701111"]
+          },
+          {
+              "title": "Ramayana Taxi",
+              "number": ["+62361-765303"]
+          },
+          {
+              "title": "Rajawali Taxi",
+              "number": ["+62361-484537"]
+          },
+          {
+              "title": "Airport Taxi",
+              "number": ["+62361-751011"]
+          },
+          {
+              "title": "Komotra Taxi",
+              "number": ["+62361-759102"]
+          },
+          {
+              "title": "Ngurah Rai Taxi",
+              "number": ["+62361-724724"]
+          },
+          {
+              "title": "Wahana Taxi",
+              "number": ["+62361-241444"]
+          },
+          {
+              "title": "Pan Wirthi Taxi",
+              "number": ["+62363-723366"]
+          }
+    ]
+}

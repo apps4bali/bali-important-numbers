@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bali Important Numbers</string>
+    <string name="app_name_short">Bali Important Numbers</string>
+    <string name="action_settings">Settings</string>
+    <string name="call">CALL</string>
+    <string name="action_rate">Rate this app</string>
+    <string name="action_share">Share</string>
+    <string name="action_about">About</string>
+
+    <string name="share_text">Recommended app "Bali Important Numbers" on Android. https://goo.gl/TnIsul</string>
+    <string name="about_1" translatable="false">Collection of important phone numbers in Bali.\n\nVersion 1.0.1\n&#169; 2015-2019 Eka Putra\nhttps://ekaputra07.github.io</string>
+    <string name="about_2" translatable="false">Love this app? please rate us on Google Play.</string>
+</resources>
