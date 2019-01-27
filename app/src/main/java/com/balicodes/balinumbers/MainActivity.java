@@ -5,6 +5,7 @@ import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -12,28 +13,59 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+import com.balicodes.balinumbers.models.Section;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.QueryDocumentSnapshot;
+import com.google.firebase.firestore.QuerySnapshot;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.logging.Logger;
+
 public class MainActivity extends AppCompatActivity {
-    private ViewPager viewPager;
-    private PagerAdapter pagerAdapter;
-    private Toolbar toolbar;
+
+    private static Logger LOG = Logger.getLogger(SectionFragment.class.getName());
+    private List<Section> sections = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        toolbar = (Toolbar) findViewById(R.id.toolbar);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         toolbar.setTitleTextColor(getResources().getColor(R.color.white));
         toolbar.setTitle(R.string.app_name);
 
         setSupportActionBar(toolbar);
 
-        pagerAdapter = new PagerAdapter(getSupportFragmentManager(), this);
-        viewPager = (ViewPager) findViewById(R.id.pager);
+        final PagerAdapter pagerAdapter = new PagerAdapter(getSupportFragmentManager(), sections);
+        ViewPager viewPager = (ViewPager) findViewById(R.id.pager);
         viewPager.setAdapter(pagerAdapter);
-        viewPager.setOffscreenPageLimit(6);
-    }
+        viewPager.setOffscreenPageLimit(sections.size());
 
+        FirebaseFirestore db = FirebaseFirestore.getInstance();
+
+        // Load section list
+        db.collection("contacts")
+                .orderBy("order")
+                .get()
+                .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+                    @Override
+                    public void onComplete(@NonNull Task<QuerySnapshot> task) {
+                        if (task.isSuccessful()) {
+                            sections.clear();
+                            for (QueryDocumentSnapshot document : task.getResult()) {
+                                sections.add(new Section(document));
+                            }
+                            pagerAdapter.notifyDataSetChanged();
+                        } else {
+                            LOG.warning("Error getting collections: " + task.getException());
+                        }
+                    }
+                });
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -49,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
-        switch (id){
+        switch (id) {
             case R.id.action_share:
                 Intent sendIntent = new Intent();
                 sendIntent.setAction(Intent.ACTION_SEND);
