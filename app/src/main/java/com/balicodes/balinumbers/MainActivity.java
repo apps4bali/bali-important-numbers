@@ -8,10 +8,11 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ProgressBar;
+import android.widget.Toast;
 
 import com.balicodes.balinumbers.models.Section;
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -34,16 +35,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        toolbar.setTitleTextColor(getResources().getColor(R.color.white));
-        toolbar.setTitle(R.string.app_name);
-
-        setSupportActionBar(toolbar);
-
+        final ProgressBar progressBar = (ProgressBar) findViewById(R.id.progressBar);
         final PagerAdapter pagerAdapter = new PagerAdapter(getSupportFragmentManager(), sections);
-        ViewPager viewPager = (ViewPager) findViewById(R.id.pager);
+        final ViewPager viewPager = (ViewPager) findViewById(R.id.pager);
         viewPager.setAdapter(pagerAdapter);
         viewPager.setOffscreenPageLimit(sections.size());
+        viewPager.setVisibility(View.GONE);
+        progressBar.setVisibility(View.VISIBLE);
 
         FirebaseFirestore db = FirebaseFirestore.getInstance();
 
@@ -54,14 +52,18 @@ public class MainActivity extends AppCompatActivity {
                 .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
                     @Override
                     public void onComplete(@NonNull Task<QuerySnapshot> task) {
+                        progressBar.setVisibility(View.GONE);
+
                         if (task.isSuccessful()) {
                             sections.clear();
                             for (QueryDocumentSnapshot document : task.getResult()) {
                                 sections.add(new Section(document));
                             }
                             pagerAdapter.notifyDataSetChanged();
+                            viewPager.setVisibility(View.VISIBLE);
                         } else {
                             LOG.warning("Error getting collections: " + task.getException());
+                            Toast.makeText(MainActivity.this, "Oops! unable to load the numbers", Toast.LENGTH_LONG).show();
                         }
                     }
                 });
@@ -76,9 +78,6 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
         switch (id) {
