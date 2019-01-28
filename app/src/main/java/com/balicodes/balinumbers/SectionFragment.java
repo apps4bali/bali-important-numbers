@@ -93,6 +93,7 @@ public class SectionFragment extends Fragment implements AdapterView.OnItemClick
 
         // Load section list
         db.collection(listPath)
+                .orderBy("created_at")
                 .get()
                 .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
                     @Override
