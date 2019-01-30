@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 27
@@ -8,8 +9,9 @@ android {
         applicationId "com.balicodes.balinumbers"
         minSdkVersion 15
         targetSdkVersion 27
-        versionCode 2
-        versionName "1.0.1"
+        versionCode 4
+        versionName "1.0.3"
+        multiDexEnabled true
     }
     buildTypes {
         release {
@@ -22,4 +24,7 @@ android {
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation "com.android.support:appcompat-v7:27.1.1"
+    implementation 'com.google.firebase:firebase-core:16.0.6'
+    implementation 'com.google.firebase:firebase-firestore:18.0.0'
+    implementation 'com.android.support:multidex:1.0.3'
 }
