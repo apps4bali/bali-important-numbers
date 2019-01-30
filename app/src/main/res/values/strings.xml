@@ -9,6 +9,6 @@
     <string name="action_about">About</string>
 
     <string name="share_text">Recommended app, Bali Important Numbers available on Android. https://goo.gl/TnIsul</string>
-    <string name="about_1" translatable="false">Collection of important phone numbers in Bali.\n\nVersion 1.0.1\n&#169; 2015-2019 Eka Putra\nhttps://ekaputra07.github.io</string>
+    <string name="about_1" translatable="false">Collection of important phone numbers in Bali.\n\nVersion 1.0.3\n&#169; 2015-2019 Eka Putra\nhttps://ekaputra07.github.io</string>
     <string name="about_2" translatable="false">Do you find this app useful? please rate us on Google Play.</string>
 </resources>
