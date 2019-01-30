@@ -1,4 +1,4 @@
-package com.balicodes.balinumbers;
+package com.apps4bali.nomorpenting;
 
 import android.app.AlertDialog;
 import android.content.ActivityNotFoundException;
@@ -14,7 +14,7 @@ import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
-import com.balicodes.balinumbers.models.Section;
+import com.apps4bali.nomorpenting.models.Section;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.firestore.FirebaseFirestore;

@@ -1,10 +1,10 @@
-package com.balicodes.balinumbers;
+package com.apps4bali.nomorpenting;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import com.balicodes.balinumbers.models.Section;
+import com.apps4bali.nomorpenting.models.Section;
 
 import java.util.List;
 

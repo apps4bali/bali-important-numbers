@@ -1,4 +1,4 @@
-package com.balicodes.balinumbers;
+package com.apps4bali.nomorpenting;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,7 +10,7 @@ import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.balicodes.balinumbers.models.Contact;
+import com.apps4bali.nomorpenting.models.Contact;
 
 import java.util.List;
 

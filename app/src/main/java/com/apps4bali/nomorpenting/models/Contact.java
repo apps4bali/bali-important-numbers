@@ -1,4 +1,4 @@
-package com.balicodes.balinumbers.models;
+package com.apps4bali.nomorpenting.models;
 
 import com.google.firebase.firestore.QueryDocumentSnapshot;
 

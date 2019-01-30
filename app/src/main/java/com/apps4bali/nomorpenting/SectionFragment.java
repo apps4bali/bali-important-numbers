@@ -1,4 +1,4 @@
-package com.balicodes.balinumbers;
+package com.apps4bali.nomorpenting;
 
 import android.app.AlertDialog;
 import android.content.Intent;
@@ -16,7 +16,7 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.balicodes.balinumbers.models.Contact;
+import com.apps4bali.nomorpenting.models.Contact;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.firestore.FirebaseFirestore;
