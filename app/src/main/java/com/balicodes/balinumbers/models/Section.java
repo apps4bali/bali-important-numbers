@@ -13,6 +13,7 @@ public class Section {
     private String hotline;
     private String hotlineText;
     private Boolean directCallBtn = false;
+    private String orderBy = "created_at";
 
     public Section() {
     }
@@ -37,6 +38,9 @@ public class Section {
         }
         if (data.containsKey("direct_call_btn")) {
             directCallBtn = (Boolean) data.get("direct_call_btn");
+        }
+        if (data.containsKey("order_by")) {
+            orderBy = (String) data.get("order_by");
         }
     }
 
@@ -64,6 +68,10 @@ public class Section {
         return directCallBtn;
     }
 
+    public String getOrderBy() {
+        return orderBy;
+    }
+
     public Bundle toBundle() {
         Bundle bundle = new Bundle();
         bundle.putString("id", id);
@@ -72,6 +80,7 @@ public class Section {
         bundle.putString("hotline", hotline);
         bundle.putString("hotlineText", hotlineText);
         bundle.putBoolean("directCallBtn", directCallBtn);
+        bundle.putString("orderBy", orderBy);
         return bundle;
     }
 }
