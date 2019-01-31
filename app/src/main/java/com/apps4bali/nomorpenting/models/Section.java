@@ -10,6 +10,7 @@ public class Section {
     private String id;
     private Long order;
     private String title;
+    private String titleId; // Title in Indonesian
     private String hotline;
     private String hotlineText;
     private Boolean directCallBtn = false;
@@ -24,6 +25,9 @@ public class Section {
 
         if (data.containsKey("title")) {
             title = (String) data.get("title");
+        }
+        if (data.containsKey("title_id")) {
+            titleId = (String) data.get("title_id");
         }
         if (data.containsKey("order")) {
             order = (Long) data.get("order");
@@ -56,6 +60,10 @@ public class Section {
         return title;
     }
 
+    public String getTitleId() {
+        return titleId;
+    }
+
     public String getHotline() {
         return hotline;
     }
@@ -77,6 +85,7 @@ public class Section {
         bundle.putString("id", id);
         bundle.putLong("order", order);
         bundle.putString("title", title);
+        bundle.putString("titleId", titleId);
         bundle.putString("hotline", hotline);
         bundle.putString("hotlineText", hotlineText);
         bundle.putBoolean("directCallBtn", directCallBtn);

@@ -9,6 +9,7 @@ import java.util.Map;
 public class Contact {
     private String id;
     private String title;
+    private String titleId; // title in Indonesian
     private String desc;
     private String address;
     private List<String> numbers = new ArrayList<>();
@@ -23,6 +24,9 @@ public class Contact {
 
         if (data.containsKey("title")) {
             title = (String) data.get("title");
+        }
+        if (data.containsKey("title_id")) {
+            titleId = (String) data.get("title_id");
         }
         if (data.containsKey("desc")) {
             desc = (String) data.get("desc");
@@ -49,6 +53,10 @@ public class Contact {
 
     public String getTitle() {
         return title;
+    }
+
+    public String getTitleId() {
+        return titleId;
     }
 
     public String getDesc() {

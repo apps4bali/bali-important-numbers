@@ -62,7 +62,7 @@ public class BaseListAdapter extends BaseAdapter {
 
         // Main title
         TextView text1 = (TextView) convertView.findViewById(R.id.text1);
-        text1.setText(item.getTitle());
+        text1.setText(item.getTitleId());
 
         // Area
         String area = item.getArea();

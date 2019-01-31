@@ -101,7 +101,10 @@ public class SectionFragment extends Fragment implements AdapterView.OnItemClick
                         if (task.isSuccessful()) {
                             items.clear();
                             for (QueryDocumentSnapshot document : task.getResult()) {
-                                items.add(new Contact(document));
+                                Contact c = new Contact(document);
+                                if (c.getTitleId() == null) continue;
+
+                                items.add(c);
                             }
                             listAdapter.notifyDataSetChanged();
                         } else {
@@ -199,7 +202,7 @@ public class SectionFragment extends Fragment implements AdapterView.OnItemClick
         }
 
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
-        builder.setTitle(contact.getTitle());
+        builder.setTitle(contact.getTitleId());
         builder.setView(detailPopup);
         builder.create();
         builder.show();
