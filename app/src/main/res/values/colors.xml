@@ -2,6 +2,7 @@
 <resources>
     <color name="green">#669900</color>
     <color name="green2">#558800</color>
+    <color name="maroon">#B50031</color>
     <color name="orange">#F80</color>
     <color name="white">#fff</color>
 </resources>

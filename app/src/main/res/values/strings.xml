@@ -7,7 +7,7 @@
     <string name="action_share">Bagikan ke teman</string>
     <string name="action_about">Tentang</string>
 
-    <string name="share_text">Aplikasi Nomor Penting/darurat di Bali tersedia untuk Android. Download disini https://goo.gl/TnIsul</string>
-    <string name="about_1" translatable="false">Daftar nomor telepon penting/darurat untuk wilayah Bali.\n\nVersi 1.0.3\n&#169; 2015-2019 Eka Putra\nhttps://ekaputra07.github.io</string>
+    <string name="share_text">Aplikasi Nomor Penting/darurat di Bali tersedia untuk Android. Download disini https://balinumbers.page.link/nomorpentingbali</string>
+    <string name="about_1" translatable="false">Daftar nomor telepon penting/darurat untuk wilayah Bali.\n\nVersi 1.0.3\n&#169; 2019 Eka Putra\nhttps://ekaputra07.github.io</string>
     <string name="about_2" translatable="false">Apakah menurut anda aplikasi ini berguna? tolong berikan rating di Google Play.</string>
 </resources>
