@@ -101,7 +101,9 @@ public class SectionFragment extends Fragment implements AdapterView.OnItemClick
                         if (task.isSuccessful()) {
                             items.clear();
                             for (QueryDocumentSnapshot document : task.getResult()) {
-                                items.add(new Contact(document));
+                                Contact c = new Contact(document);
+                                if (c.getTitle() == null) continue;
+                                items.add(c);
                             }
                             listAdapter.notifyDataSetChanged();
                         } else {

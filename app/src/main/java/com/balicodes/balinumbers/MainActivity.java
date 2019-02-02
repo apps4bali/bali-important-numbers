@@ -57,7 +57,9 @@ public class MainActivity extends AppCompatActivity {
                         if (task.isSuccessful()) {
                             sections.clear();
                             for (QueryDocumentSnapshot document : task.getResult()) {
-                                sections.add(new Section(document));
+                                Section s = new Section(document);
+                                if (s.getTitle() == null) continue;
+                                sections.add(s);
                             }
                             pagerAdapter.notifyDataSetChanged();
                             viewPager.setVisibility(View.VISIBLE);
